@@ -1,0 +1,15 @@
+<main>
+    <div class="container2">
+        <h1>Customers</h1>
+        <div *ngFor="let customer of customers" class="card customer" >
+            <div class="card-left">
+                <div class="img"></div>
+            </div>
+            <div class="card-right">
+                <a [routerLink]="['/customers',customer.id]">
+                    {{customer.name }}
+                </a>
+            </div>
+        </div>
+    </div>
+</main>

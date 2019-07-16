@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Roboto' , 'sans-serif';
+}
+main{
+    margin: 90px 0;
+    min-height: 80vh;
+}
+html{
+    min-height: 100vh;
+}
+
+body {
+    overflow-x: hidden;
+}
